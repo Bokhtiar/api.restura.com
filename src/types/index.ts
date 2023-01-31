@@ -7,7 +7,7 @@ export interface IRoutes {
       pathRewrite: any;
     };
   }
-  
+   
   export interface IService {
     service_name: string; 
     service_path: string;

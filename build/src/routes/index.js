@@ -7,7 +7,7 @@ exports.ROUTES = [
         url: "/auth",
         proxy: {
             // target: "http://auth-service:5000",
-            target: "http://65.1.2.148:4001",
+            target: "http://localhost:4001",
             changeOrigin: true,
             pathRewrite: {
                 [`^/auth`]: "",

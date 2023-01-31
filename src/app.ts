@@ -6,7 +6,7 @@ import { setupProxies } from "./middleware/proxy.middleware";
 import { ValidAPIKey } from "./middleware/apikey.middleware";
 import { IService } from "./types";
 import { ROUTES } from "./routes";
- 
+  
 export const app: Express = express();
 
 setupLogging(app);
