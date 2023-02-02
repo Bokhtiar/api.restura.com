@@ -14,14 +14,14 @@ export const ROUTES: IRoutes[] = [
     },  
   },
   {
-    name: "Location",
-    url: "/location",
+    name: "product",
+    url: "/product",
     proxy: {
       // target: "http://location-service:5001",
-      target: "http://65.1.2.148:4002",
+      target: "http://localhost:4002",
       changeOrigin: true,
       pathRewrite: {
-        [`^/location`]: "",
+        [`^/product`]: "",
       },
     },
   },
