@@ -2,7 +2,7 @@ import { IRoutes } from "../types";
 
 export const ROUTES: IRoutes[] = [
   {
-    name: "Auth",
+    name: "auth",
     url: "/auth",
     proxy: {
       target: "https://restura-auth.onrender.com",

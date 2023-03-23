@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ROUTES = void 0;
 exports.ROUTES = [
     {
-        name: "Auth",
+        name: "auth",
         url: "/auth",
         proxy: {
             target: "https://restura-auth.onrender.com",
