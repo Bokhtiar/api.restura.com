@@ -30,7 +30,7 @@ exports.ROUTES = [
         name: "Order",
         url: "/order",
         proxy: {
-            // target: "http://location-service:5001",
+            //target: "https://restura-order.onrender.com",
             target: "http://localhost:4003",
             changeOrigin: true,
             pathRewrite: {
